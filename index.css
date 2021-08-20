@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.remarketing-header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1% 0%;
+    width: 100%;
+    -webkit-box-shadow: 0px 9px 15px -5px #000000; 
+    box-shadow: 0px 15px 15px -5px #000000;
+}
+
+/* QuietCool logo wrapper */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+/* QuietCool logo */
+.logo>img{
+    width: 300px;
+}
+
+/* Remarketing landing page phone number wrapper */
+.remarketing-phone-number-wrapper{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+/* Remarketing phone number */
+.remarketing-phone-number-wrapper>a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C80000;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  transition: background-color .5s;
+}
+
+.remarketing-phone-number-wrapper>a:hover{
+    background-color: #820909;
+}
+
+/* Wrapper for all the main remarketing content */
+.remarketing-content-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Call-to-action remarketing wrapper */
+.remarketing-call-to-action-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 7.5% 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.remarketing-call-to-action{
+    width: 90%;
+}
+
+/* Main call to action headline */
+.remarketing-call-to-action>h1{
+    padding: 5% 0%;
+    font-size: 3rem;
+    color: white;
+}
+
+.remarketing-subheadline{
+    width: 90%;
+}
+
+/* Main call to action subheadline */
+.remarketing-subheadline>p{
+    padding: 5% 0%;
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    line-height: 1.5em;
+}
+
+/* Contact form remarketing wrapper */
+.remarketing-contact-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 5% 0%;
+    background-color: #C80000;
+}
+
+/* Contact form headline */
+.contact-form-headline>p{
+    font-size: 1.5rem;
+    color: seashell;
+}
+
+/* Remarketing contact form */
+.remarketing-contact-form-wrapper>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 5% 0%;
+}
+
+/* Remarketing contact form button */
+.remarketing-contact-form-wrapper>.submit-form-btn{
+    text-align: center;
+    padding: 5% 0%;
+    width: 75%;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: white;
+    color: #C80000;
+    box-shadow: 0px 0px 0px 0px #000000;
+    transition: box-shadow 0.5s;
+    
+}
+
+.submit-form-btn:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+}
+
+/* Contact form text fields */
+form>input{
+    width: 90%;
+    padding: 4%;
+    margin: 2% 0%;
+    border-radius: 2.5px;
+    border: none;
+    font-size: 1.2rem;
+    transition: box-shadow 0.5s;
+}
+
+form>input:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/* Remarketing footer */
+.remarketing-terms-policy-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 1% 0%;
+    width: 100%;
+}
+
+/* Copyright */
+.quiet-cool-copyright{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    color: #C80000;
+}
+
+/* Terms and privacy policy wrapper */
+.terms-policy-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 30%;
+}
+
+/* Remarketing footer links */
+.terms-policy-wrapper>a{
+    margin: 0% 1%;
+    color: #C80000;
+    text-decoration: none;
+}
