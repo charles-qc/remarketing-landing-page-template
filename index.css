@@ -186,6 +186,7 @@ form>input:hover{
 
 /* Copyright anchor */
 .quiet-cool-copyright>a{
+    font-size: 1.25rem;
     text-decoration: none;
     color: #C80000;
 }
@@ -200,6 +201,7 @@ form>input:hover{
     
 /* Remarketing footer links */
 .terms-policy-wrapper>a{
+    font-size: 1.25rem;
     margin: 0% 1%;
     color: #C80000;
     text-decoration: none;
@@ -243,4 +245,8 @@ form>input:hover{
     .remarketing-phone-number-wrapper>a{
         font-size: 1rem;
     }
+}
+
+@media only screen and (max-width: 414px){
+
 }
