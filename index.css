@@ -113,6 +113,7 @@
 
 /* Contact form headline */
 .contact-form-headline>p{
+    text-align: center;
     font-size: 1.5rem;
     color: #fcfcfc;
 }
@@ -139,7 +140,6 @@
     border-radius: 2px;
     box-shadow: 0px 0px 0px 0px #000000;
     transition: box-shadow 0.5s;
-    text-transform: uppercase;
 }
 
 /* Remarketing contact form button - hover */
@@ -209,11 +209,9 @@ form>input:hover{
 
 /* Responsive CSS */
 @media only screen and (max-width: 1024px){
-    .contact-form-headline>p{
-        text-align: center;
-    }
     .remarketing-contact-form-wrapper>.submit-form-btn{
         padding: 5% 2%;
+        width: 70%;
     }
     .remarketing-phone-number-wrapper>a{
         font-size: 1rem;
@@ -276,7 +274,8 @@ form>input:hover{
     }
     .remarketing-contact-form-wrapper>.submit-form-btn{
         padding: 5% 0%;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
+        width: 70%;
     }
 }
 
