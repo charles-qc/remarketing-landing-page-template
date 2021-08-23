@@ -217,6 +217,12 @@ form>input:hover{
         font-size: 1rem;
         padding: 0% 10%;
     }
+    .remarketing-content-wrapper{
+        height: 185vh;
+    }
+    .contact-form-headline>p{
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -279,16 +285,16 @@ form>input:hover{
     }
 }
 
-/* Iphone X - landscape */
-@media only screen and (min-width: 812px){
-    .remarketing-content-wrapper{
-        height: auto;
-    }
-}
-
 /* Ipad Pro - portrait */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) and (min-height: 1366px){
     .remarketing-content-wrapper{
         height: 100vh;
     }
-}
+} 
+
+/* Ipad - landscape */
+@media only screen and (min-width: 1024px) and (min-height: 768px){
+    .remarketing-content-wrapper{
+        height: 100vh;
+    }
+} 
