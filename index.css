@@ -279,3 +279,17 @@ form>input:hover{
         font-size: 1.25rem;
     }
 }
+
+/* Iphone X - landscape */
+@media only screen and (min-width: 812px){
+    .remarketing-content-wrapper{
+        height: auto;
+    }
+}
+
+/* Ipad Pro - portrait */
+@media only screen and (min-width: 1024px){
+    .remarketing-content-wrapper{
+        height: 100vh;
+    }
+}
