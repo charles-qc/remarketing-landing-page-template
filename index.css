@@ -41,6 +41,7 @@
   justify-content: center;
   align-items: center;
   background-color: #C80000;
+  border-radius: 2px;
   color: white;
   padding: 1em;
   text-decoration: none;
@@ -57,6 +58,7 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 /* Call-to-action remarketing wrapper */
@@ -131,6 +133,7 @@
     font-size: 2rem;
     background-color: white;
     color: #C80000;
+    border-radius: 2px;
     box-shadow: 0px 0px 0px 0px #000000;
     transition: box-shadow 0.5s;
     
@@ -163,7 +166,7 @@ form>input:hover{
     justify-content: space-evenly;
     justify-content: center;
     flex-wrap: nowrap;
-    padding: 3.25% 0%;
+    padding: 2% 0%;
     width: 100%;
 }
 
@@ -199,5 +202,25 @@ form>input:hover{
 
 /* Responsive CSS */
 @media only screen and (max-width: 1024px) {
-    
+    .contact-form-headline>p{
+        text-align: center;
+    }
+    .remarketing-contact-form-wrapper>.submit-form-btn{
+        padding: 5% 2%;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+      .quiet-cool-copyright>a{
+          align-items: center;
+          font-size: .75rem;
+      }
+      .terms-policy-wrapper>a{
+          font-size: .75rem;
+      }
+      .remarketing-contact-form-wrapper>.submit-form-btn{
+        font-size: 1.5rem;
+        padding: 5% 3%;
+      }
+
   }
