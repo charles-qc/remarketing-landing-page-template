@@ -163,7 +163,7 @@ form>input:hover{
     justify-content: space-evenly;
     justify-content: center;
     flex-wrap: nowrap;
-    padding: 1% 0%;
+    padding: 3.25% 0%;
     width: 100%;
 }
 
@@ -175,6 +175,11 @@ form>input:hover{
     color: #C80000;
 }
 
+.quiet-cool-copyright>a{
+    text-decoration: none;
+    color: #C80000;
+}
+
 /* Terms and privacy policy wrapper */
 .terms-policy-wrapper{
     display: flex;
@@ -182,6 +187,8 @@ form>input:hover{
     flex-wrap: nowrap;
     width: 30%;
 }
+    
+
 
 /* Remarketing footer links */
 .terms-policy-wrapper>a{
@@ -189,3 +196,8 @@ form>input:hover{
     color: #C80000;
     text-decoration: none;
 }
+
+/* Responsive CSS */
+@media only screen and (max-width: 1024px) {
+    
+  }
