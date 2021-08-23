@@ -1,3 +1,4 @@
+/* Set default configurations for the page */
 *{
     padding: 0;
     margin: 0;
@@ -50,6 +51,7 @@
   transition: background-color .5s;
 }
 
+/* Remarketing phone number - hover */
 .remarketing-phone-number-wrapper>a:hover{
     background-color: #820909;
 }
@@ -74,6 +76,7 @@
     background-size: cover;
 }
 
+/* Main call to action headline wrapper */
 .remarketing-call-to-action{
     width: 90%;
 }
@@ -85,6 +88,7 @@
     color: white;
 }
 
+/* Main call to action subheadline wrapper */
 .remarketing-subheadline{
     width: 90%;
 }
@@ -139,6 +143,7 @@
     
 }
 
+/* Remarketing contact form button - hover */
 .submit-form-btn:hover{
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
@@ -155,6 +160,7 @@ form>input{
     transition: box-shadow 0.5s;
 }
 
+/* Contact form text fields - hover */
 form>input:hover{
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
@@ -170,7 +176,7 @@ form>input:hover{
     width: 100%;
 }
 
-/* Copyright */
+/* Copyright wrapper */
 .quiet-cool-copyright{
     width: 60%;
     display: flex;
@@ -178,6 +184,7 @@ form>input:hover{
     color: #C80000;
 }
 
+/* Copyright anchor */
 .quiet-cool-copyright>a{
     text-decoration: none;
     color: #C80000;
@@ -191,8 +198,6 @@ form>input:hover{
     width: 30%;
 }
     
-
-
 /* Remarketing footer links */
 .terms-policy-wrapper>a{
     margin: 0% 1%;
@@ -201,26 +206,41 @@ form>input:hover{
 }
 
 /* Responsive CSS */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px){
     .contact-form-headline>p{
         text-align: center;
     }
     .remarketing-contact-form-wrapper>.submit-form-btn{
         padding: 5% 2%;
     }
-  }
+}
 
-  @media only screen and (max-width: 768px){
-      .quiet-cool-copyright>a{
-          align-items: center;
-          font-size: .75rem;
-      }
-      .terms-policy-wrapper>a{
-          font-size: .75rem;
-      }
-      .remarketing-contact-form-wrapper>.submit-form-btn{
-        font-size: 1.5rem;
-        padding: 5% 3%;
-      }
-
-  }
+@media only screen and (max-width: 768px){
+    .quiet-cool-copyright>a{
+        align-items: center;
+        font-size: .75rem;
+    }
+    .terms-policy-wrapper>a{
+        font-size: .75rem;
+    }
+    .remarketing-contact-form-wrapper>.submit-form-btn{
+        font-size: 2.5rem;
+        padding: 3% 0%;
+    }
+    .logo>img{
+        width: 200px;
+    }
+    .remarketing-content-wrapper{
+        flex-direction: column;
+        height: auto;
+    }
+    .remarketing-call-to-action-wrapper{
+        width: 100%;
+    }
+    .remarketing-contact-form-wrapper{
+        width: 100%;
+    }
+    .remarketing-phone-number-wrapper>a{
+        font-size: 1rem;
+    }
+}
