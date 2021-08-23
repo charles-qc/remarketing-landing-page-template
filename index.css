@@ -46,7 +46,7 @@
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   transition: background-color .5s;
 }
 
@@ -215,6 +215,10 @@ form>input:hover{
     .remarketing-contact-form-wrapper>.submit-form-btn{
         padding: 5% 2%;
     }
+    .remarketing-phone-number-wrapper>a{
+        font-size: 1rem;
+        padding: 0% 10%;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -226,7 +230,7 @@ form>input:hover{
         font-size: .75rem;
     }
     .remarketing-contact-form-wrapper>.submit-form-btn{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         padding: 3% 0%;
     }
     .logo>img{
@@ -243,7 +247,7 @@ form>input:hover{
         width: 100%;
     }
     .remarketing-phone-number-wrapper>a{
-        font-size: 1rem;
+        padding: 10% 10%;
     }
 }
 
