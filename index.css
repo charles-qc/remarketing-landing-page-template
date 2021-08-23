@@ -46,7 +46,7 @@
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: background-color .5s;
 }
 
@@ -107,7 +107,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    padding: 5% 0%;
+    padding: 7.5% 0%;
     background-color: #C80000;
 }
 
@@ -131,10 +131,10 @@
 .remarketing-contact-form-wrapper>.submit-form-btn{
     text-align: center;
     padding: 5% 0%;
-    width: 75%;
+    width: 70%;
     justify-content: center;
     font-size: 2rem;
-    background-color: #fcfcfc;
+    background-color: white;
     color: #C80000;
     border-radius: 2px;
     box-shadow: 0px 0px 0px 0px #000000;
@@ -151,11 +151,11 @@
 /* Contact form text fields */
 form>input{
     width: 90%;
-    padding: 4%;
+    padding: 3%;
     margin: 2% 0%;
     border-radius: 2.5px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: box-shadow 0.5s;
 }
 
@@ -186,7 +186,7 @@ form>input:hover{
 
 /* Copyright anchor */
 .quiet-cool-copyright>a{
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #C80000;
 }
@@ -201,7 +201,7 @@ form>input:hover{
     
 /* Remarketing footer links */
 .terms-policy-wrapper>a{
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0% 1%;
     color: #C80000;
     text-decoration: none;
@@ -228,6 +228,7 @@ form>input:hover{
     }
     .terms-policy-wrapper>a{
         font-size: .75rem;
+        margin: 0% 5%;
     }
     .remarketing-contact-form-wrapper>.submit-form-btn{
         font-size: 1.5rem;
@@ -247,10 +248,34 @@ form>input:hover{
         width: 100%;
     }
     .remarketing-phone-number-wrapper>a{
+        font-size: .8rem;
         padding: 10% 10%;
     }
 }
 
 @media only screen and (max-width: 414px){
-
+    .remarketing-header{
+        padding: 2% 0%;
+    }
+    .logo>img{
+        width: 150px;
+    }
+    .remarketing-phone-number-wrapper>a{
+        padding: 15% 10%;
+        font-size: .6rem;
+    }
+    form>input{
+        padding: 4%;
+        font-size: .75rem;
+    }
+    .remarketing-contact-form-wrapper{
+        padding: 10% 0%;
+    }
+    .contact-form-headline{
+        width: 95%;
+    }
+    .remarketing-contact-form-wrapper>.submit-form-btn{
+        padding: 5% 0%;
+        font-size: 1.25rem;
+    }
 }
