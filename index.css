@@ -59,7 +59,7 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 80vh;
 }
 
 /* Call-to-action remarketing wrapper */
@@ -181,6 +181,7 @@ form>input:hover{
     width: 60%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     color: #C80000;
 }
 
@@ -195,6 +196,7 @@ form>input:hover{
 .terms-policy-wrapper{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: nowrap;
     width: 30%;
 }
@@ -218,7 +220,7 @@ form>input:hover{
         padding: 0% 10%;
     }
     .remarketing-content-wrapper{
-        height: 185vh;
+        height: 90vh;
     }
     .contact-form-headline>p{
         width: 95%;
@@ -285,16 +287,27 @@ form>input:hover{
     }
 }
 
-/* Ipad Pro - portrait */
-@media only screen and (min-width: 1024px) and (min-height: 1366px){
+/* Responsive CSS for specific devices. DO NOT DELETE! 
+Removing this CSS will cause responsive issues for these devices
+based on their orientation */
+
+/* Iphone X - landscape */
+@media only screen and (max-height: 375px) and (max-width: 812px){
     .remarketing-content-wrapper{
-        height: 100vh;
+        height: auto;
     }
 } 
 
-/* Ipad - landscape */
-@media only screen and (min-width: 1024px) and (min-height: 768px){
+/* Moto G4 - landscape */
+@media only screen and (max-width: 640px) and (max-height: 360px){
     .remarketing-content-wrapper{
-        height: 100vh;
+        height: auto;
     }
-} 
+}
+
+/* Ipad Pro - portrait */
+@media only screen and (min-height: 1366px){
+    .remarketing-content-wrapper{
+        height: 90vh;
+    }
+}
