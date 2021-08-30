@@ -88,7 +88,7 @@
 /* Main call to action headline */
 .remarketing-call-to-action>h1{
     padding: 5% 0%;
-    font-size: 3rem;
+    font-size: 4.5rem;
     color: #f2f2f2;
 }
 
@@ -323,9 +323,4 @@ based on their orientation */
         height: 95vh;
     }
 }
-/* Ipad Pro -landscape */
-@media only screen and (min-width: 1366px) and (min-height: 1024px){
-    .remarketing-terms-policy-wrapper{
-        padding: 4.5% 0%;
-    }
-}
+
