@@ -64,7 +64,7 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row;
-    height: 75vh;
+    height: 700px;
 }
 
 /* Call-to-action remarketing wrapper */
