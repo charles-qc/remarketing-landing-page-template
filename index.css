@@ -64,9 +64,6 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/quietcool-savings.png");
-    background-repeat: no-repeat;
-    background-size: contain;
     /*height: 700px;*/
 }
 
@@ -78,6 +75,10 @@
     align-items: center;
     width: 70%;
     padding: 4% 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("media/bg/quietcool-savings.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 /* Main call to action headline wrapper */
@@ -338,10 +339,11 @@ based on their orientation */
     }
 }
 
-/* Ipad Pro - portrait */
-@media only screen and (min-height: 1366px){
+/* Screen heights larger than 1024px  */
+@media only screen and (min-height: 1024px){
     .remarketing-content-wrapper{
-        height: 95vh;
+        height: 90vh;
     }
 }
+
 
