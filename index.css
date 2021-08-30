@@ -16,7 +16,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #fcfcfc;
-    padding: 1.5% 0%;
+    padding: 1% 0%;
     width: 100%;
 }
 
@@ -64,6 +64,9 @@
 .remarketing-content-wrapper{
     display: flex;
     flex-direction: row;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/quietcool-savings.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     /*height: 700px;*/
 }
 
@@ -75,9 +78,6 @@
     align-items: center;
     width: 70%;
     padding: 4% 0%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.25)),url("media/bg/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Main call to action headline wrapper */
@@ -119,6 +119,7 @@
     width: 50%;
     padding: 4% 0%;
     background-color: #C80000;
+    opacity: .9;
 }
 
 /*Remarketing content form wrapper*/
@@ -134,7 +135,7 @@
 /* Contact form headline */
 .contact-form-headline>p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fcfcfc;
 }
 
